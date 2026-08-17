@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bankify | Create Account</title><link rel="stylesheet" href="../css/forms.css"></head>
+<body><main class="form-page"><a href="accounts.html">← Back to Accounts</a><h1>Create New Account</h1><p>Enter customer account details.</p>
+<form id="accountForm">
+<label>Account Number<input id="accountNumber" required></label><label>Holder Name<input id="holderName" required></label>
+<label>Account Type<select id="accountType" required><option value="">Select Type</option><option value="SAVINGS">Savings</option><option value="CURRENT">Current</option><option value="SALARY">Salary</option></select></label>
+<label>Opening Balance<input id="balance" type="number" min="0" required></label><label>Bank ID<input id="bankId" type="number" required></label>
+<button type="submit">Create Account</button></form></main><script src="../js/account-form.js"></script></body></html>

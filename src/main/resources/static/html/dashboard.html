@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bankify | Dashboard</title>
+<link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+<aside class="sidebar">
+    <div class="sidebar-logo">Bank<span>ify</span></div>
+    <nav class="sidebar-menu">
+        <p class="menu-title">MAIN MENU</p>
+        <a href="dashboard.html" class="menu-item active">▦ Dashboard</a>
+        <a href="accounts.html" class="menu-item">💳 Accounts</a>
+        <a href="banks.html" class="menu-item">🏦 Banks</a>
+        <p class="menu-title">TRANSACTIONS</p>
+        <a href="deposit.html" class="menu-item">↓ Deposit</a>
+        <a href="withdraw.html" class="menu-item">↑ Withdraw</a>
+        <p class="menu-title">OTHER</p>
+        <a href="settings.html" class="menu-item">⚙ Settings</a>
+        <a href="login.html" class="menu-item">↪ Logout</a>
+    </nav>
+</aside>
+<main class="main-content">
+    <header class="topbar">
+        <div><p class="page-label">OVERVIEW</p><h1>Dashboard</h1></div>
+        <div class="user-profile"><div class="user-avatar">SN</div><div><strong>Sakshi Naik</strong><span>Account Holder</span></div></div>
+    </header>
+    <section class="welcome-section">
+        <p class="welcome-small">GOOD AFTERNOON, SAKSHI 👋</p>
+        <h2>Welcome back!</h2>
+        <p>Here's what's happening with your banking today.</p>
+    </section>
+    <section class="stats-container">
+        <div class="stat-card"><p>TOTAL BALANCE</p><h3>₹ 2,45,800</h3><span>↑ 8.2% this month</span></div>
+        <div class="stat-card"><p>TOTAL ACCOUNTS</p><h3>08</h3><span>Active accounts</span></div>
+        <div class="stat-card"><p>CONNECTED BANKS</p><h3>03</h3><span>All branches</span></div>
+        <div class="stat-card"><p>TRANSACTIONS</p><h3>24</h3><span>↑ 12% this month</span></div>
+    </section>
+    <section class="dashboard-grid">
+        <div class="dashboard-card">
+            <div class="card-heading"><div><p>QUICK ACTIONS</p><h3>Manage your money</h3></div></div>
+            <div class="action-grid">
+                <a href="deposit.html" class="action-card">↓ <div><strong>Deposit</strong><p>Add money</p></div></a>
+                <a href="withdraw.html" class="action-card">↑ <div><strong>Withdraw</strong><p>Take out money</p></div></a>
+                <a href="add-account.html" class="action-card">+ <div><strong>New Account</strong><p>Create account</p></div></a>
+                <a href="add-bank.html" class="action-card">🏦 <div><strong>Add Bank</strong><p>Connect bank</p></div></a>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <div class="card-heading"><div><p>ACCOUNT SUMMARY</p><h3>My Accounts</h3></div><a href="accounts.html">View all</a></div>
+            <div class="account-item"><div><strong>Savings Account</strong><p>•••• 9214</p></div><strong>₹ 1,25,000</strong></div>
+            <div class="account-item"><div><strong>Current Account</strong><p>•••• 4821</p></div><strong>₹ 85,800</strong></div>
+            <div class="account-item"><div><strong>Salary Account</strong><p>•••• 7432</p></div><strong>₹ 35,000</strong></div>
+        </div>
+    </section>
+    <section class="dashboard-card transactions-card">
+        <div class="card-heading"><div><p>ACTIVITY</p><h3>Recent Transactions</h3></div></div>
+        <div class="transaction-row"><strong>Money Deposited</strong><span>Aug 17, 2026</span><b>+ ₹10,000</b></div>
+        <div class="transaction-row"><strong>Cash Withdrawal</strong><span>Aug 15, 2026</span><b>- ₹5,000</b></div>
+        <div class="transaction-row"><strong>Money Deposited</strong><span>Aug 10, 2026</span><b>+ ₹45,000</b></div>
+    </section>
+</main>
+<script src="../js/dashboard.js"></script>
+</body>
+</html>
