@@ -264,3 +264,8 @@ Interested in **Java Backend / Full Stack Development**.
 
 If you find this project useful, feel free to ⭐ the repository.
 
+<!-- 🐍 Snake Animation -->
+
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
