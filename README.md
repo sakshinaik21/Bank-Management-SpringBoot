@@ -263,9 +263,3 @@ Interested in **Java Backend / Full Stack Development**.
 **Bankify** is a backend-focused Spring Boot project created to gain hands-on experience in developing real-world REST APIs, connecting applications to PostgreSQL, and implementing a layered Spring Boot architecture.
 
 If you find this project useful, feel free to ⭐ the repository.
-
-<!-- 🐍 Snake Animation -->
-
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
