@@ -1,0 +1,21 @@
+package jsp_springBoot.Controller;
+
+import jsp_springBoot.Service.AIService;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/ai")
+@CrossOrigin
+public class AIController {
+
+    private final AIService aiService;
+
+    public AIController(AIService aiService) {
+        this.aiService = aiService;
+    }
+
+    @PostMapping("/ask")
+    public String askAI(@RequestBody String question) {
+        return aiService.askAI(question);
+    }
+}

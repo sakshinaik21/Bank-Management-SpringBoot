@@ -570,4 +570,10 @@ footer > p {
     .cta h2 {
         font-size: 30px;
     }
+    /* AI Assistant Button */
+.hero-buttons .secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
 }
