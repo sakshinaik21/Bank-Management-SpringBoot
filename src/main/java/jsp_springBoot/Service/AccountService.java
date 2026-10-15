@@ -39,6 +39,7 @@ public class AccountService {
             throw new RuntimeException(
                     "Account number already exists: "
                             + account.getAccountNumber());
+
         }
 
         Bank bank = bankRepository.findById(bankId)
