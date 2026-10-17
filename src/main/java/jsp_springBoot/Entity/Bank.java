@@ -41,4 +41,5 @@ public class Bank {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id")
     private Address address;
+
 }
