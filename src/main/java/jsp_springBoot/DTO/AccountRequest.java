@@ -15,4 +15,5 @@ public class AccountRequest {
     private double balance;
 
     private Long bankId;
+
 }
